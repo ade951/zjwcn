@@ -1,0 +1,50 @@
+#home_center{
+	margin-top: 50px;
+	height: 350px;
+	background: url(../images/background_pattern.png);
+	opacity: .9;
+	filter: alpha(opacity=90);
+	background-color: rgb(0, 84, 172);
+}
+#home_center .background{
+	background: url(../images/air_plane.png) no-repeat right bottom;
+	height: 100%;
+	padding-top: 100px;
+	font-family: ff-tisa-web-pro-1, ff-tisa-web-pro-2, 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Sans GB W3', 'Microsoft YaHei UI', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
+#home_center .my_words{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.tiles{
+	text-align: center;
+	margin-top: 10px;
+}
+.tiles>div:after{
+	content: "";
+	width: 1px;
+	height: 50%;
+	top: 25%;
+	left: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.0784314);
+	position: absolute;
+}
+.tiles>div:first-child:after{
+	display: none;
+}
+.tiles .thumbnail{
+	height: 220px;
+	padding: 10px;
+	border: none;
+}
+.tiles .thumbnail>img{
+	height: 200px;
+	object-fit: cover;
+}
+
+.footer{
+	text-align: center;
+}
